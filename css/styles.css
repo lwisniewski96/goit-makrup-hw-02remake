@@ -1,128 +1,112 @@
+:root {
+  --main-color: #2196f3;
+  --secondary-color: white;
+  --third-color: #757575;
+  --fourth-color: #ffffff;
+  --fifth-color: #212121;
+  --sixth-color: #f5f4fa;
+  --seventh-color: #2f303a;
+  --eighth-color: #e5e5e5;
+  --nineth-color: #000000;
+  --tenth-color: black;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #e5e5e5;
+  color: var(--fifth-color);
+  background-color: var(--sixth-color);
+  letter-spacing: 0.03em;
 }
-.main-box {
-  background-color: #2f303a;
-  font-family: inherit;
+.backround {
+  background: var(--seventh-color);
 }
 
 h1 {
   font-size: 44px;
-  color: white;
+  color: var(--secondary-color);
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 .button-main {
-  background-color: #2196f3;
+  background-color: var(--main-color);
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
-  color: white;
-  box-align: center;
+  color: var(--secondary-color);
   line-height: 1.88;
   letter-spacing: 0.06em;
-  border: none;
-  cursor: pointer;
 }
 
 .lorem {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 h2 {
-  color: #212121;
   font-size: 36px;
-  font-weight: "700";
+  font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 .descriptionlorem {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--third-color);
 }
 
 .membersname {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
-  letter-spacing: 0.03em;
-
-  color: #212121;
 }
 
 .workofmembers {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--third-color);
 }
 button {
-  font-family: inherit;
-  color: #212121;
-  font-weight: "500";
+  font-weight: 500;
   font-size: 16px;
-  line-height: "1.6";
-  background-color: #e5e5e5;
+  line-height: 1.6;
+  background-color: var(--eighth-color);
   border: none;
   cursor: pointer;
 }
 button:hover {
-  background-color: #2196f3;
-  color: white;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 a {
   text-decoration: none;
-  color: #212121;
+  color: var(--fifth-color);
 }
 nav {
   text-decoration: none;
   font-size: 14px;
-  font-weight: "500";
+  font-weight: 500;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 nav :hover {
-  color: #2196f3;
+  color: var(--main-color);
 }
 nav :focus {
-  color: #2196f3;
+  color: var(--main-color);
 }
 nav :active {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 nav > a {
   font-family: "Raleway", sans-serif;
-  color: black;
-  font-weight: "700";
+  color: var(--tenth-color);
+  font-weight: 700;
   font-size: 26px;
 }
 .logo > .blue {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 ul {
@@ -130,53 +114,50 @@ ul {
 }
 .contact {
   text-decoration: none;
-  color: #757575;
+  color: var(--third-color);
   font-size: 14px;
-  font-weight: "500";
+  font-weight: 500;
   line-height: 1.17;
 }
 .contact:hover {
-  color: #2196f3;
+  color: var(--main-color);
 }
 
 .imagesdescription {
-  color: #212121;
-  font-weight: "700";
+  color: var(--fifth-color);
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .signdescription {
-  color: #757575;
-  font-family: "Roboto";
+  color: var(--third-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8px;
 }
 
 .studioname {
-  color: #2196f3;
+  color: var(--main-color);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
 .highlight {
-  color: #000000;
+  color: var(--nineth-color);
 }
 .highlightwhite {
-  color: #ffffff;
+  color: var(--fourth-color);
 }
 
 .topline {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
 
 .portoflio {
-  color: #2196f3;
-  font-family: "Roboto";
+  color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
@@ -184,34 +165,34 @@ ul {
 }
 
 .mailadress {
-  color: #757575;
-  font-family: "Roboto";
+  color: var(--third-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.mailadress:hover,
+.mailadress:focus,
+.telnumber:hover,
+.telnumber:focus {
+  color: var(--main-color);
+}
+
 .telnumber {
-  color: #757575;
-  font-family: "Roboto";
+  color: var(--third-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
 }
+
 .buttons {
-  color: #212121;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
 }
 
-.backround {
-  background: #2f303a;
-}
 .cityadress {
-  color: #ffffff;
-  font-family: "Roboto";
+  color: var(--fourth-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -220,5 +201,3 @@ ul {
 ul {
   list-style-type: none;
 }
-font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif;
