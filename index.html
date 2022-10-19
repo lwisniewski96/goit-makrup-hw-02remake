@@ -20,36 +20,40 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="mainelement">
     <header>
-      <a href="index.html"
-        ><p class="studioname"><span class="highlight">Web</span>Studio</p>
-      </a>
-      <nav>
+      <a  href="index.html" class="studioname"
+        >Web<span class="highlight">Studio</span></a
+      >
+      <nav class="navigationlist">
         <!-- Navigate to other pages -->
-        <ul class="topline">
-          <li><a href="#">Agencja</a></li>
+        <ul class="list" class="topline">
+          <li><a class="infolist" href="#">Agencja</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <li>
-        <a class="mailadress" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-      </li>
-      <li><a class="telnumber" href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="list">
+        <li>
+          <a class="mailadress" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </li>
+        <li>
+          <a class="telnumber" href="tel:+48111111111">+48111111111</a>
+        </li>
+      </ul>
     </header>
 
     <main>
       <section class="backround">
-        <h1 class="h1">Efektywne rozwiązania dla waszego biznesu</h1>
+        <h1 class="bigtext">Efektywne rozwiązania dla waszego biznesu</h1>
 
-        <button class="button-main">Zamów usługę</button>
+        <button type="button" class="button-main">Zamów usługę</button>
       </section>
 
       <div class="lorembox">
-        <ul class="lorems">
+        <ul class="list" class="lorems">
           <li>
             <h3 class="lorem">LOREM IPSUM</h3>
             <p class="descriptionlorem">
@@ -85,7 +89,7 @@
       </div>
       <section>
         <h2 class="headtwo">Czym się zajmujemy</h2>
-        <ul class="pictures">
+        <ul class="list" class="pictures">
           <li class="picture">
             <img
               src="images/workingontablet.jpg"
@@ -115,7 +119,7 @@
 
       <section>
         <h2 class="headtwo">Nasz Zespół</h2>
-        <ul class="teammembers">
+        <ul class="list" class="teammembers">
           <li class="member">
             <img
               class="memberpicture"
@@ -167,16 +171,16 @@
     <footer class="backround">
       <a class="studioname">Web<span class="highlightwhite">Studio</span></a>
 
-      <address>
+      <address class="nonetextstyle">
         <p class="cityadress">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <ul>
+        <ul class="list">
           <li>
             <a class="mailadress" href="mailto:info@example.com"
-              >info@example.com></a
+              >info@example.com</a
             >
           </li>
           <li>
-            <a class="telnumber" href="tel:+48111111111">+48 111 111 111></a>
+            <a class="telnumber" href="tel:+48111111111">+48111111111</a>
           </li>
         </ul>
       </address>

@@ -16,36 +16,50 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="mainelement">
     <header>
       <a href="#" class="studioname"
         >Web<span class="highlight">Studio</span></a
       >
-      <nav>
-        <ul class="topline">
+      <nav class="navigationlist">
+        <ul class="list" class="topline">
           <li><a href="#">Agencja</a></li>
           <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
-          <li><a href="#">Kontakty</a></li>
+          <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <li>
-        <a class="mailadress" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        >
-      </li>
-      <li><a class="telnumber" href="tel:+48111111111">+48111111111</a></li>
+      <ul class="list">
+        <li>
+          <a class="mailadress" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a class="telnumber" href="tel:+48111111111">+48111111111</a></li>
+      </ul>
     </header>
 
     <main>
-      <ul class="buttons">
-        <li><button type="button" class="button">Wszystkie</button></li>
-        <li><button type="button" class="button">Strony</button></li>
-        <li><button type="button" class="button">Aplikacje</button></li>
-        <li><button type="button" class="button">Dizajn</button></li>
-        <li><button type="button" class="button">Marketing</button></li>
-      </ul>
+      <div class="allbuttons-portoflio">
+        <ul class="list" class="buttons-portfolio">
+          <li>
+            <button type="button" class="button-portfolio">Wszystkie</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Strony</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Aplikacje</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Dizajn</button>
+          </li>
+          <li>
+            <button type="button" class="button-portfolio">Marketing</button>
+          </li>
+        </ul>
+      </div>
       <div class="allimagesproject">
-        <ul class="imagesproject">
+        <ul class="list" class="imagesproject">
           <li>
             <img
               src="images/technocracks.jpg"
@@ -144,16 +158,16 @@
     <footer class="backround">
       <a class="studioname">Web<span class="highlightwhite">Studio</span></a>
 
-      <address>
+      <address class="nonetextstyle">
         <p class="cityadress">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <ul>
+        <ul class="list">
           <li>
             <a class="mailadress" href="mailto:info@example.com"
-              >info@example.com></a
+              >info@example.com</a
             >
           </li>
           <li>
-            <a class="telnumber" href="tel:+48111111111">+48 111 111 111></a>
+            <a class="telnumber" href="tel:+48111111111">+48111111111</a>
           </li>
         </ul>
       </address>

@@ -11,7 +11,7 @@
   --tenth-color: black;
 }
 
-body {
+.mainelement {
   font-family: "Roboto", sans-serif;
   color: var(--fifth-color);
   background-color: var(--sixth-color);
@@ -21,7 +21,7 @@ body {
   background: var(--seventh-color);
 }
 
-h1 {
+.bigtext {
   font-size: 44px;
   color: var(--secondary-color);
   line-height: 1.36;
@@ -29,12 +29,21 @@ h1 {
 }
 .button-main {
   background-color: var(--main-color);
-  font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   color: var(--secondary-color);
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border: var(--seventh-color);
+  cursor: pointer;
+}
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--eighth-color);
+  border: none;
+  cursor: pointer;
 }
 
 .lorem {
@@ -42,7 +51,7 @@ h1 {
   font-size: 14px;
   line-height: 16px;
 }
-h2 {
+.headtwo {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -66,40 +75,33 @@ h2 {
   line-height: 19px;
   color: var(--third-color);
 }
-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  background-color: var(--eighth-color);
-  border: none;
-  cursor: pointer;
-}
-button:hover {
+
+.button-portfolio:hover {
   background-color: var(--main-color);
   color: var(--secondary-color);
 }
 
-a {
+.infolist {
   text-decoration: none;
   color: var(--fifth-color);
 }
-nav {
+.navigationlist {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
 }
-nav :hover {
+.navigationlist :hover {
   color: var(--main-color);
 }
-nav :focus {
+.navigationlist :focus {
   color: var(--main-color);
 }
-nav :active {
+.navigationlist :active {
   color: var(--main-color);
 }
 
-nav > a {
+.navigationlist > a {
   font-family: "Raleway", sans-serif;
   color: var(--tenth-color);
   font-weight: 700;
@@ -109,7 +111,7 @@ nav > a {
   color: var(--main-color);
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 .contact {
@@ -170,6 +172,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-style: inherit;
 }
 .mailadress:hover,
 .mailadress:focus,
@@ -198,6 +201,6 @@ ul {
   line-height: 24px;
 }
 
-ul {
-  list-style-type: none;
+.nonetextstyle {
+  text-style: inherit;
 }
