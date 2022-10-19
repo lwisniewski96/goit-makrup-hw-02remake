@@ -81,10 +81,12 @@
   color: var(--secondary-color);
 }
 
-.infolist{
+.infolist {
   text-decoration: none;
   color: var(--fifth-color);
+  font-weight: 700;
 }
+
 .navigationlist {
   text-decoration: none;
   font-size: 14px;
@@ -104,10 +106,18 @@
 .navigationlist > .infolist {
   font-family: "Raleway", sans-serif;
   color: var(--tenth-color);
-  font-weight: 700;
+}
+.logo, 
+.logo-footer {
   font-size: 26px;
 }
-.logo > .blue {
+.logo-footer {
+  color: var(--secondary-color);
+
+}
+
+.logo > .blue,
+.logo-footer > .blue {
   color: var(--main-color);
 }
 
@@ -202,5 +212,5 @@
 }
 
 .nonetextstyle {
-  text-style: inherit;
+  font-style: inherit;
 }
