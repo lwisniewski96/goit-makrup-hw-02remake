@@ -81,7 +81,7 @@
   color: var(--secondary-color);
 }
 
-.infolist {
+.infolist{
   text-decoration: none;
   color: var(--fifth-color);
 }
@@ -101,7 +101,7 @@
   color: var(--main-color);
 }
 
-.navigationlist > a {
+.navigationlist > .infolist {
   font-family: "Raleway", sans-serif;
   color: var(--tenth-color);
   font-weight: 700;
