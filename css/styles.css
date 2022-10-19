@@ -84,7 +84,7 @@
 .infolist {
   text-decoration: none;
   color: var(--fifth-color);
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .navigationlist {
@@ -104,16 +104,20 @@
 }
 
 .navigationlist > .infolist {
-  font-family: "Raleway", sans-serif;
   color: var(--tenth-color);
 }
-.logo, 
+.logo,
 .logo-footer {
   font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+.logo {
+  color: var(--fifth-color);
 }
 .logo-footer {
   color: var(--secondary-color);
-
 }
 
 .logo > .blue,
