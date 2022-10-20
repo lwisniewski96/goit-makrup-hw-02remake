@@ -38,6 +38,7 @@
   cursor: pointer;
 }
 .button-portfolio {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -49,7 +50,7 @@
 .lorem {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .headtwo {
   font-size: 36px;
@@ -57,22 +58,20 @@
   line-height: 1.17;
 }
 .descriptionlorem {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   color: var(--third-color);
 }
 
 .membersname {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 }
 
 .workofmembers {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   color: var(--third-color);
 }
 
@@ -85,22 +84,18 @@
   text-decoration: none;
   color: var(--fifth-color);
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.colorgrey {
+  color: var(--third-color);
 }
 
 .navigationlist {
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
   line-height: 1.17;
-}
-.navigationlist :hover {
-  color: var(--main-color);
-}
-.navigationlist :focus {
-  color: var(--main-color);
-}
-.navigationlist :active {
-  color: var(--main-color);
 }
 
 .navigationlist > .infolist {
@@ -147,9 +142,9 @@
 }
 .signdescription {
   color: var(--third-color);
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 1.8px;
+  line-height: 1.8;
 }
 
 .studioname {
@@ -157,7 +152,7 @@
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .highlight {
   color: var(--nineth-color);
@@ -169,7 +164,7 @@
 .topline {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 
 .portoflio {
@@ -180,39 +175,23 @@
   letter-spacing: 0.02em;
 }
 
-.mailadress {
-  color: var(--third-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-style: inherit;
-}
-.mailadress:hover,
-.mailadress:focus,
-.telnumber:hover,
-.telnumber:focus {
+.hoverblue:hover,
+.hoverblue:focus,
+.hoverblue:active {
   color: var(--main-color);
-}
-
-.telnumber {
-  color: var(--third-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
 }
 
 .buttons {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
 }
 
 .cityadress {
   color: var(--fourth-color);
-  font-weight: 400;
+
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 
 .nonetextstyle {
