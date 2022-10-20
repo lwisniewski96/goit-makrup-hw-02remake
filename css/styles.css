@@ -36,6 +36,7 @@
   letter-spacing: 0.06em;
   border: var(--seventh-color);
   cursor: pointer;
+  font-family: inherit;
 }
 .button-portfolio {
   font-family: "Roboto", sans-serif;
@@ -45,6 +46,7 @@
   background-color: var(--eighth-color);
   border: none;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .lorem {
